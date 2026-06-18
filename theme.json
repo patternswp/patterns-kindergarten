@@ -55,6 +55,49 @@
 					"name": "Accent",
 					"slug": "accent"
 				}
+			],
+			"duotone": [
+				{
+					"colors": ["#1E1E1E", "#1E1E1E"],
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"colors": ["#fff", "#fff"],
+					"slug": "default",
+					"name": "Default"
+				},
+				{
+					"colors": ["#ff4880", "#ff4880"],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": ["#393d72", "#393d72"],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": ["#eff9ff", "#eff9ff"],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				},
+				{
+					"colors": ["#666666", "#666666"],
+					"slug": "quaternary",
+					"name": "Quaternary"
+				},
+				{
+					"colors": ["#f6f6f6", "#f6f6f6"],
+					"slug": "quinary",
+					"name": "Quinary"
+				},
+
+				{
+					"colors": ["#ffae00", "#ffae00"],
+					"slug": "accent",
+					"name": "Accent"
+				}
 			]
 		},
 		"layout": {
@@ -109,7 +152,7 @@
 		},
 		"typography": {
 			"defaultFontSizes": false,
-			"fluid": true,
+			"fluid": false,
 			"fontFamilies": [
 				{
 					"fontFamily": "Salsa",
@@ -119,7 +162,7 @@
 							"fontFamily": "Salsa",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/salsa_normal_400.ttf"]
+							"src": ["file:./assets/fonts/salsa/Salsa-Regular.woff2"]
 						}
 					]
 				},
@@ -131,102 +174,114 @@
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "200",
-							"src": ["file:./assets/fonts/mulish_normal_200.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-ExtraLight.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "300",
-							"src": ["file:./assets/fonts/mulish_normal_300.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Light.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/mulish_normal_400.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Regular.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/mulish_normal_500.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Medium.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/mulish_normal_600.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-SemiBold.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/mulish_normal_700.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Bold.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/mulish_normal_800.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-ExtraBold.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "normal",
 							"fontWeight": "900",
-							"src": ["file:./assets/fonts/mulish_normal_900.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Black.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "200",
-							"src": ["file:./assets/fonts/mulish_italic_200.ttf"]
+							"src": [
+								"file:./assets/fonts/mulish/Mulish-ExtraLightItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "300",
-							"src": ["file:./assets/fonts/mulish_italic_300.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-LightItalic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/mulish_italic_400.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-Italic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/mulish_italic_500.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-MediumItalic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "600",
-							"src": ["file:./assets/fonts/mulish_italic_600.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-SemiBoldItalic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/mulish_italic_700.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-BoldItalic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "800",
-							"src": ["file:./assets/fonts/mulish_italic_800.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-ExtraBoldItalic.woff2"]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStyle": "italic",
 							"fontWeight": "900",
-							"src": ["file:./assets/fonts/mulish_italic_900.ttf"]
+							"src": ["file:./assets/fonts/mulish/Mulish-BlackItalic.woff2"]
 						}
 					]
 				}
 			],
 			"fontSizes": [
+				{
+					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--x-small' ",
+					"fluid": {
+						"max": "0.875rem",
+						"min": "0.875rem"
+					},
+					"size": "0.875rem",
+					"slug": "x-small",
+					"name": "Extra Small"
+				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'small' and it is generated as '--wp--preset--font-size--small' ",
 					"fluid": {
@@ -234,7 +289,8 @@
 						"min": "0.875rem"
 					},
 					"size": "1rem",
-					"slug": "small"
+					"slug": "small",
+					"name": "Small"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'medium' and it is generated as '--wp--preset--font-size--medium' ",
@@ -243,7 +299,8 @@
 						"min": "1rem"
 					},
 					"size": "1.125rem",
-					"slug": "medium"
+					"slug": "medium",
+					"name": "Medium"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'large' and it is generated as '--wp--preset--font-size--large' ",
@@ -252,7 +309,8 @@
 						"min": "1.75rem"
 					},
 					"size": "1.75rem",
-					"slug": "large"
+					"slug": "large",
+					"name": "Large"
 				},
 				{
 					"_comment": "The default WordPress CSS variable slug is 'x-large' and it is generated as '--wp--preset--font-size--x-large' ",
@@ -261,7 +319,8 @@
 						"min": "2rem"
 					},
 					"size": "2.25rem",
-					"slug": "x-large"
+					"slug": "x-large",
+					"name": "Extra Large"
 				},
 				{
 					"_comment": "There isn't a default CSS variable slug in WordPress for 'xx-large,' but it gets generated as '--wp--preset--font-size--xx-large.' ' ",
@@ -270,7 +329,8 @@
 						"min": "2.75rem"
 					},
 					"size": "2.75rem",
-					"slug": "xx-large"
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
 				}
 			]
 		},
@@ -298,7 +358,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|base",
-			"fontSize": "15px",
+			"fontSize": "var:preset|font-size|small",
 			"lineHeight": "1.4"
 		},
 
@@ -323,14 +383,14 @@
 					"padding": {
 						"_comment": "Sets the default padding value of the <button> element",
 						"bottom": "15px",
-						"left": "30px",
-						"right": "30px",
+						"left": "var:preset|spacing|30",
+						"right": "var:preset|spacing|30",
 						"top": "15px"
 					}
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|base",
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "500",
 					"lineHeight": "1.6"
 				}
@@ -420,7 +480,7 @@
 			"core/navigation": {
 				"_comment": "generate custom css for navigation active state",
 				"spacing": {
-					"blockGap": "40px"
+					"blockGap": "var:preset|spacing|40"
 				},
 				"typography": {
 					"fontSize": "0.8rem",
@@ -448,7 +508,7 @@
 						}
 					}
 				},
-				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:10px;}"
+				"css": "& .current-menu-item{ color:var(--wp--preset--color--primary);} & .wp-block-navigation__submenu-container .wp-block-pages-list__item__link{ padding:var(--wp--preset--spacing--10);}"
 			},
 
 			"core/navigation-link": {
@@ -463,7 +523,7 @@
 				}
 			},
 			"core/navigation-submenu": {
-				"css": "& ul li a{padding:10px;}"
+				"css": "& ul li a{padding:var(--wp--preset--spacing--10);}"
 			},
 			"core/button": {
 				"variations": {
@@ -471,16 +531,17 @@
 						"border": {
 							"color": "var:preset|color|primary",
 							"style": "solid",
-							"width": "2px"
+							"width": "1px"
 						},
 						"color": {
 							"text": "var:preset|color|primary"
 						},
+						"css": ".wp-block-button__link:not(.has-background):hover {background:var(--wp--preset--color--primary);color: var(--wp--preset--color--default);}",
 						"spacing": {
 							"padding": {
 								"bottom": "15px",
-								"left": "30px",
-								"right": "30px",
+								"left": "var:preset|spacing|30",
+								"right": "var:preset|spacing|30",
 								"top": "15px"
 							}
 						}
@@ -522,7 +583,7 @@
 			},
 			"core/code": {
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"lineHeight": "1.3"
 				}
 			},
@@ -610,7 +671,7 @@
 					"text": "var:preset|color|quaternary"
 				},
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"elements": {
 					"link": {
@@ -686,10 +747,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -719,7 +780,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/query-no-results": {
 				"color": {
@@ -727,13 +788,13 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"right": "40px",
-						"bottom": "40px",
-						"left": "40px"
+						"top": "var:preset|spacing|40",
+						"right": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40",
+						"left": "var:preset|spacing|40"
 					},
 					"margin": {
-						"top": "80px"
+						"top": "var:preset|spacing|80"
 					}
 				},
 				"border": {
@@ -746,11 +807,11 @@
 			"core/comment-template": {
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"bottom": "40px"
+						"top": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40"
 					},
 					"margin": {
-						"bottom": "30px"
+						"bottom": "var:preset|spacing|30"
 					}
 				}
 			},
@@ -759,7 +820,7 @@
 					"text": "var:preset|color|base"
 				},
 				"typography": {
-					"fontSize": "14px",
+					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "600"
 				},
 				"elements": {
@@ -777,12 +838,12 @@
 			},
 			"core/comment-date": {
 				"typography": {
-					"fontSize": "13px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var:preset|color|tertiary"
+							"text": "var:preset|color|base"
 						},
 						":hover": {
 							"color": {
@@ -794,7 +855,7 @@
 			},
 			"core/comment-edit-link": {
 				"typography": {
-					"fontSize": "13px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"elements": {
 					"link": {
@@ -811,7 +872,7 @@
 			},
 			"core/comment-reply-link": {
 				"typography": {
-					"fontSize": "13px"
+					"fontSize": "var:preset|font-size|x-small"
 				},
 				"spacing": {
 					"margin": {
@@ -833,13 +894,13 @@
 			},
 			"core/comment-content": {
 				"typography": {
-					"fontSize": "14px"
+					"fontSize": "var:preset|font-size|x-small"
 				}
 			},
 			"core/post-comments-form": {
 				"spacing": {
 					"padding": {
-						"top": "40px;"
+						"top": "var:preset|spacing|40;"
 					}
 				},
 				"css": "& .comment-form-comment textarea{margin-top:15px;} "
@@ -852,10 +913,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "10px",
+								"bottom": "var:preset|spacing|10",
 								"left": "15px",
 								"right": "15px",
-								"top": "10px"
+								"top": "var:preset|spacing|10"
 							},
 							"margin": {
 								"bottom": "2px",
@@ -885,7 +946,7 @@
 						}
 					}
 				},
-				"css": "& .page-numbers:is(.dots, .current){padding:10px 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
+				"css": "& .page-numbers:is(.dots, .current){padding:var(--wp--preset--spacing--10) 15px; border:1px solid #f5f5f5; border-radius:5px;} & .current{background:var(--wp--preset--color--primary); color: var(--wp--preset--color--default);} "
 			},
 			"core/latest-posts": {
 				"color": {
@@ -906,7 +967,7 @@
 						}
 					}
 				},
-				"css": "& li {margin-bottom:20px;} & li:last-child{margin-bottom:0;}"
+				"css": "& {overflow:hidden;} & li {margin-bottom:var(--wp--preset--spacing--20);} & li:last-child{margin-bottom:0;}"
 			},
 			"core/latest-comments": {
 				"color": {
@@ -923,7 +984,8 @@
 							}
 						}
 					}
-				}
+				},
+				"css": "& {padding-left:0;}"
 			},
 			"core/table": {
 				"_comment": "generate custom css for wp-table",

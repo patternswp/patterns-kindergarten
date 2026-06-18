@@ -1,4 +1,4 @@
-# Copyright (C) 2025 patternswp
+#  Copyright (C) 2025 patternswp
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-03T07:33:51+00:00\n"
+"POT-Creation-Date: 2025-02-24T09:15:18+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-kindergarten\n"
@@ -428,7 +428,7 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: patterns/calendar.php:17
+#: patterns/calendar.php:18
 msgid "Calendar"
 msgstr ""
 
@@ -571,18 +571,18 @@ msgstr ""
 msgid "Happy Parents Say"
 msgstr ""
 
-#: patterns/featured-section-5.php:31
+#: patterns/featured-section-5.php:33
 msgid "Donald Mark"
 msgstr ""
 
-#: patterns/featured-section-5.php:35
+#: patterns/featured-section-5.php:37
 msgid "/ Kids Father"
 msgstr ""
 
-#: patterns/featured-section-5.php:62
-#: patterns/featured-section-6.php:31
-#: patterns/featured-section-6.php:37
-#: patterns/featured-section-6.php:43
+#: patterns/featured-section-5.php:64
+#: patterns/featured-section-6.php:32
+#: patterns/featured-section-6.php:38
+#: patterns/featured-section-6.php:44
 msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an"
 msgstr ""
 
@@ -594,15 +594,15 @@ msgstr ""
 msgid "Frequntly Ask Questions"
 msgstr ""
 
-#: patterns/featured-section-6.php:30
+#: patterns/featured-section-6.php:31
 msgid "Q. Is There a Sleep or Rest Time?"
 msgstr ""
 
-#: patterns/featured-section-6.php:36
+#: patterns/featured-section-6.php:37
 msgid "Q. Children in Need Armistice Day?"
 msgstr ""
 
-#: patterns/featured-section-6.php:42
+#: patterns/featured-section-6.php:43
 msgid "Q. Is Outdoor Play Supervised?"
 msgstr ""
 

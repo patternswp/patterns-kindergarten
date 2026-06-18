@@ -2,7 +2,7 @@
 /**
  * Title: Featured Section 2
  * Slug: patterns-kindergarten/featured-section-2
- * Categories: featured
+ * Categories: services,featured
  * Description: A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout.
  *
  * @package    Patterns_Kindergarten
@@ -32,7 +32,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:cover {"overlayColor":"default","minHeight":300,"contentPosition":"center center","isDark":false,"style":{"border":{"radius":"5px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","wideSize":"%"}} -->
 <div class="wp-block-cover is-light" style="border-radius:5px;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-default-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|secondary"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-6.png"
 style="width:64px"/></figure>
 <!-- /wp:image -->
@@ -51,7 +51,7 @@ style="width:64px"/></figure>
 <!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:cover {"overlayColor":"default","minHeight":300,"contentPosition":"center center","isDark":false,"style":{"border":{"radius":"5px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","wideSize":"%"}} -->
 <div class="wp-block-cover is-light" style="border-radius:5px;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-default-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|secondary"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-7.png"
 style="width:64px"/></figure>
 <!-- /wp:image -->

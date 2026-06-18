@@ -21,24 +21,72 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#495057",
+					"color": "#0F0F0F",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#DEE2E6",
+					"color": "#f5f5f5",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#6C757D",
+					"color": "#495057",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "#6C757D",
+					"color": "#DBDBDB",
+					"name": "Quinary",
+					"slug": "quinary"
+				},
+				{
+					"color": "#30313B",
 					"name": "Accent",
 					"slug": "accent"
+				}
+			],
+			"duotone": [
+				{
+					"colors": ["#212529", "#212529"],
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"colors": ["#fff", "#fff"],
+					"slug": "default",
+					"name": "Default"
+				},
+				{
+					"colors": ["#343A40", "#343A40"],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": ["#0F0F0F", "#0F0F0F"],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": ["#f5f5f5", "#f5f5f5"],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				},
+				{
+					"colors": ["#495057", "#495057"],
+					"slug": "quaternary",
+					"name": "Quaternary"
+				},
+				{
+					"colors": ["#DBDBDB", "#DBDBDB"],
+					"slug": "quinary",
+					"name": "Quinary"
+				},
+
+				{
+					"colors": ["#30313B", "#30313B"],
+					"slug": "accent",
+					"name": "Accent"
 				}
 			]
 		}
@@ -52,17 +100,17 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var:preset|color|tertiary"
+						"background": "var:preset|color|secondary"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var:preset|color|tertiary"
+						"background": "var:preset|color|secondary"
 					}
 				},
 				":active": {
 					"color": {
-						"background": "var:preset|color|tertiary"
+						"background": "var:preset|color|secondary"
 					}
 				},
 				":visited": {

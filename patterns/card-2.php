@@ -13,7 +13,7 @@
 ?>
 <!-- wp:cover {"overlayColor":"default","minHeight":300,"isDark":false,"style":{"border":{"radius":"5px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light" style="border-radius:5px;min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-default-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"border":{"radius":"5px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-secondary-color has-text-color has-link-color" style="border-radius:5px"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|secondary"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-5.png"
 style="width:64px"/></figure>
 <!-- /wp:image -->

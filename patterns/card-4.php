@@ -14,7 +14,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"150px"},"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"100px"},"dimensions":{"minHeight":"90px"}},"backgroundColor":"primary","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-<div class="wp-block-group has-primary-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-primary-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-8.png"
 style="width:50px"/></figure>
 <!-- /wp:image --></div>

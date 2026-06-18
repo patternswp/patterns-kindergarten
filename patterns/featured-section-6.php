@@ -20,9 +20,10 @@
 <h2 class="wp-block-heading has-text-align-left has-secondary-color has-text-color" style="font-size:3rem;font-style:normal;font-weight:700;line-height:1"><?php esc_html_e( 'Frequntly Ask Questions', 'patterns-kindergarten' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"constrained"}} -->

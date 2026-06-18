@@ -10,8 +10,11 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-secondary-background-color has-background"><!-- wp:spacer {"height":"200px"} -->
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"align":"full","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull">
+
+<!-- wp:group {"align":"full","backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-tertiary-background-color has-background"><!-- wp:spacer {"height":"200px"} -->
 <div style="height:200px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -36,9 +39,10 @@
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Help Center', 'patterns-kindergarten' ); ?></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"accent","textColor":"base","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-accent-background-color has-text-color has-background wp-element-button" href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'Home', 'patterns-kindergarten' ); ?></a></div>
-<!-- /wp:button --></div>
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'Home', 'patterns-kindergarten' ); ?></a></div>
+<!-- /wp:button -->
+</div>
 <!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
@@ -46,4 +50,7 @@
 <!-- wp:spacer {"height":"200px"} -->
 <div style="height:200px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
+<!-- /wp:group -->
+
+</main>
 <!-- /wp:group -->

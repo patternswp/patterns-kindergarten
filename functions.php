@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_KINDERGARTEN_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_KINDERGARTEN_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_KINDERGARTEN_VERSION', '1.0.1' );
+define( 'PATTERNS_KINDERGARTEN_VERSION', '1.0.2' );
 define( 'PATTERNS_KINDERGARTEN_THEME_NAME', 'patterns-kindergarten' );
 define( 'PATTERNS_KINDERGARTEN_OPTION_NAME', 'patterns-kindergarten' );
 

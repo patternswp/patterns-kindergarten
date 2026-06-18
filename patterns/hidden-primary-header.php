@@ -15,7 +15,7 @@
 	style="padding-top:var(--wp--preset--spacing--10); padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|accent"}}} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-1.png"
 style="width:16px"/></figure>
 <!-- /wp:image -->
@@ -26,7 +26,7 @@ style="width:16px"/></figure>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|accent"}}} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-2.png"
 style="width:16px"/></figure>
 <!-- /wp:image -->
@@ -37,7 +37,7 @@ style="width:16px"/></figure>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-group has-default-color has-text-color has-link-color"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|accent"}}} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-3.png"
 style="width:16px"/></figure>
 <!-- /wp:image -->

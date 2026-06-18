@@ -2,7 +2,7 @@
 /**
  * Title: Featured Section 4
  * Slug: patterns-kindergarten/featured-section-4
- * Categories: featured
+ * Categories: services, featured
  * Description: A collection of various WordPress inbuilt blocks, such as headings, paragraphs, image, groups, and buttons, arranged in different positions to form a complete page layout.
  *
  * @package    Patterns_Kindergarten
@@ -14,7 +14,7 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background">
 	
-<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":{"left":"80px"}}}} -->
+<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 <!-- wp:image {"width":"auto","height":"800px","aspectRatio":"9/16","scale":"contain","sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -35,7 +35,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"150px"},"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"100px"},"dimensions":{"minHeight":"90px"}},"backgroundColor":"secondary","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-<div class="wp-block-group has-secondary-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-secondary-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-9.png"
 style="width:50px"/></figure>
 <!-- /wp:image --></div>
@@ -56,7 +56,7 @@ style="width:50px"/></figure>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"150px"},"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"100px"},"dimensions":{"minHeight":"90px"}},"backgroundColor":"accent","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-<div class="wp-block-group has-accent-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<div class="wp-block-group has-accent-background-color has-background" style="border-radius:100px;min-height:90px"><!-- wp:image {"width":"50px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-10.png"
 style="width:50px"/></figure>
 <!-- /wp:image --></div>
