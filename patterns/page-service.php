@@ -1,6 +1,6 @@
 <?php
 /**
- * Title:Service Page
+ * Title: Service Page
  * Slug: patterns-kindergarten/service-page
  * Categories: page
  * Keywords: Page
