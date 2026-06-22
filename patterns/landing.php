@@ -21,7 +21,7 @@
 	<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-3"} /-->
 	<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-4"} /-->
 
-	
+
 	<!-- wp:group {"align":"full","style":{"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"bottom":"var:preset|spacing|80","top":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":""}} -->
 		<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"padding":{"top":"0px","bottom":"var:preset|spacing|80"}}}} -->
 		<div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:0px;padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"top"} -->
@@ -36,7 +36,7 @@
 		<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-7"} /-->
 
 		</div>
-		<!-- /wp:group --> 
+		<!-- /wp:group -->
 
 	<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-8"} /-->
 	<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-9"} /-->

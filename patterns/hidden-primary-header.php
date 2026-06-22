@@ -66,10 +66,10 @@ style="width:16px"/></figure>
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-	<div class="wp-block-group alignwide">	
-		
+	<div class="wp-block-group alignwide">
+
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group"> 
+			<div class="wp-block-group">
 				<!-- wp:pattern {"slug":"patterns-kindergarten/site-identity"} /-->
 				<!-- wp:pattern {"slug":"patterns-kindergarten/navigation-menu"} /-->
 			</div>
@@ -80,7 +80,7 @@ style="width:16px"/></figure>
 		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--30)"><?php esc_html_e( 'Enroll Now', 'patterns-kindergarten' ); ?></a></div>
 		<!-- /wp:button --></div>
 		<!-- /wp:buttons -->
-	
+
 
 	</div>
 	<!-- /wp:group -->

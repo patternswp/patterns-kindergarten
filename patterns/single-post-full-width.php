@@ -21,7 +21,7 @@
     <!-- /wp:spacer -->
 
 	<!-- wp:pattern {"slug":"patterns-kindergarten/hidden-single-post-content"} /-->
-	
+
 </main>
 <!-- /wp:group -->
 
