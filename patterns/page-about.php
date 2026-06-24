@@ -24,6 +24,6 @@
 		<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-7"} /-->
 
 		</div>
-		<!-- /wp:group --> 
+		<!-- /wp:group -->
 <!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-2"} /-->
 <!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-3"} /-->

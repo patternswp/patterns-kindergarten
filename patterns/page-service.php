@@ -1,6 +1,6 @@
 <?php
 /**
- * Title:Service Page
+ * Title: Service Page
  * Slug: patterns-kindergarten/service-page
  * Categories: page
  * Keywords: Page
@@ -25,5 +25,5 @@
 		<!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-7"} /-->
 
 </div>
-<!-- /wp:group --> 
+<!-- /wp:group -->
 <!-- wp:pattern {"slug":"patterns-kindergarten/featured-section-4"} /-->

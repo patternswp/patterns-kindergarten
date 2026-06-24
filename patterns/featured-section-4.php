@@ -13,7 +13,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-tertiary-background-color has-background">
-	
+
 <!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
@@ -29,7 +29,7 @@
 <!-- wp:pattern {"slug":"patterns-kindergarten/section-title-3"} /-->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-	
+
 <!-- wp:pattern {"slug":"patterns-kindergarten/card-4"} /-->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->

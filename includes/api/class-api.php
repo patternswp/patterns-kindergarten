@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Kindergarten_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Kindergarten_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-kindergarten/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Kindergarten_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 

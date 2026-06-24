@@ -13,7 +13,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-default-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
-	
+
 <!-- wp:pattern {"slug":"patterns-kindergarten/section-title-1"} /-->
 
 <!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
